@@ -1,0 +1,70 @@
+.start-now-btn {
+  background: linear-gradient(
+    98.83deg,
+    #00b2ff 11.6%,
+    #106fb3 56.89%,
+    #194886 83.7%
+  );
+  color: white;
+  font-size: 18px;
+  display: justify;
+  border-radius: 5px;
+  margin: 50px 270px 10px;
+  width: 140px;
+  height: 50px;
+  cursor: pointer;
+}
+
+.hero-container {
+  background: url("../../image/bg.png") center/cover no-repeat;
+  height: 100vh;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  box-shadow: inset 0 0 0 1000px rgba(0, 0, 0, 0.2);
+  object-fit: contain;
+}
+
+.hero-container > h1 {
+  color: #275187;
+  font-size: 68px;
+  margin-top: 30px;
+  margin-left: 20px;
+}
+
+.hero-container > p {
+  margin-top: 22px;
+  margin-left: 20px;
+  color: #062650;
+  font-size: 27px;
+  font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
+    "Lucida Sans", Arial, sans-serif;
+}
+
+@media screen and (max-width: 960px) {
+  .hero-container > h1 {
+    font-size: 70px;
+    margin-top: -150px;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .hero-container > h1 {
+    font-size: 70px;
+    margin-top: 30px;
+  }
+
+  .hero-container > p {
+    font-size: 30px;
+  }
+
+  .btn-mobile {
+    display: block;
+    text-decoration: none;
+  }
+
+  .btn {
+    width: 50%;
+  }
+}
