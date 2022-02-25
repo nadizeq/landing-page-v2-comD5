@@ -1,3 +1,58 @@
+.login-btn {
+  color: #0a2653;
+  width: 140px;
+  height: 50px;
+  border-radius: 20px;
+  position: absolute;
+  top: 20px;
+  right: 30px;
+  background-color: #d6e5f2;
+  font-weight: bold;
+}
+.rectangle-size {
+  width: 24%;
+  position: relative;
+  top: 15px;
+  transform: translate(0%, 5%);
+}
+.text-on-image {
+  position: absolute;
+  top: 16%;
+  left: 18%;
+  transform: translate(0%, 50%);
+}
+
+.highlight {
+  position: relative;
+  bottom: 100px;
+  left: 90px;
+  width: 160px;
+  height: 100px;
+  background: #83bbee;
+}
+.company-logo {
+  position: absolute;
+  top: 20px;
+  left: 90px;
+  height: 50px;
+  width: 150px;
+}
+
+.pc-comd5 {
+  position: absolute;
+  top: 38%;
+  right: 13%;
+  height: 45%;
+  width: 30%;
+}
+
+.phone-comd5 {
+  position: absolute;
+  top: 27%;
+  right: 10%;
+  height: 65%;
+  width: 18%;
+}
 .start-now-btn {
   background: linear-gradient(
     98.83deg,
@@ -8,15 +63,16 @@
   color: white;
   font-size: 18px;
   display: justify;
-  border-radius: 5px;
-  margin: 50px 270px 10px;
+  border-radius: 20px;
+  margin: 40px 270px 10px;
   width: 140px;
   height: 50px;
   cursor: pointer;
 }
 
 .hero-container {
-  background: url("../../image/bg.png") center/cover no-repeat;
+  background: url("../../image/bg3.png") center center/cover no-repeat;
+
   height: 100vh;
   width: 100%;
   display: flex;
@@ -30,12 +86,12 @@
   color: #275187;
   font-size: 68px;
   margin-top: 30px;
-  margin-left: 20px;
+  margin-left: 90px;
 }
 
 .hero-container > p {
   margin-top: 22px;
-  margin-left: 20px;
+  margin-left: 90px;
   color: #062650;
   font-size: 27px;
   font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
@@ -51,20 +107,33 @@
 
 @media screen and (max-width: 768px) {
   .hero-container > h1 {
-    font-size: 70px;
+    font-size: 35px;
     margin-top: 30px;
   }
 
   .hero-container > p {
-    font-size: 30px;
+    font-size: 15px;
   }
 
-  .btn-mobile {
-    display: block;
-    text-decoration: none;
+  .start-now-btn {
+    background: linear-gradient(
+      98.83deg,
+      #00b2ff 11.6%,
+      #106fb3 56.89%,
+      #194886 83.7%
+    );
+    color: white;
+    font-size: 15px;
+    font-weight: bold;
+    display: justify;
+    border-radius: 5px;
+    margin: 50px 100px 10px;
+    width: 140px;
+    height: 40px;
+    cursor: pointer;
   }
 
   .btn {
-    width: 50%;
+    width: 20%;
   }
 }
