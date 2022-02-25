@@ -1,0 +1,38 @@
+.cards {
+  padding: 4rem;
+
+  height: 50rem;
+}
+
+.bg1 {
+  background: linear-gradient(206.48deg, #a2baf3 21.05%, #b9deff 52.54%);
+}
+
+.bg2 {
+  background: linear-gradient(
+    164.94deg,
+    #b9deff 30.34%,
+    rgba(225, 213, 250, 0.67) 61.35%,
+    rgba(191, 168, 239, 0.76) 84.59%
+  );
+}
+
+.feature-title {
+  text-align: center;
+  font-size: 72px;
+}
+
+.feature-description {
+  text-align: center;
+  font-size: 36px;
+}
+
+.center {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  position: relative;
+  top: 50px;
+  height: 70%;
+  width: 50%;
+}
