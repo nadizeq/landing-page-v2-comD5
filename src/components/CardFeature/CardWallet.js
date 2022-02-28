@@ -4,10 +4,11 @@ import "./Card.css";
 
 function CardWallet() {
   const arr = ["cards", "bg2"];
+  const textColorDescription = ["text-description", "text-description-color"];
   return (
     <div className={arr.join(" ")}>
-      <h1 className="feature-title">Wallet</h1>
-      <p className="feature-description">
+      <h1 className="title">Wallet</h1>
+      <p className={textColorDescription.join(" ")}>
         Withdraw or Top-up your wallet then never stop trading till you drop
       </p>
       <p></p>

@@ -4,18 +4,21 @@ import "../../App";
 import "./HeroSection.css";
 import comD5 from "../../image/Company-logo.png";
 import rectangle from "../../image/highlight.png";
-import pc from "../../image/pc.png";
-import phone from "../../image/mobile-comd5.png";
+import pcPhone from "../../image/phonePCFirstPage.png";
 
 function HeroSection() {
   return (
     <div className="hero-container">
       <button className="login-btn">Login</button>
       <img className="company-logo" src={comD5} alt="ComD5 logo" />
-      <img className="pc-comd5 " src={pc} alt="Graph on ComD5 platform" />
-      <img className="phone-comd5" src={phone} alt="Graph on ComD5 platform" />
+      <img
+        className="pcPhone-comd5"
+        src={pcPhone}
+        alt="Devices showing ComD5 services"
+      />
+
       <h1>
-        Your <img className="rectangle-size" src={rectangle} alt />
+        Your <img className="rectangle-size" src={rectangle} alt="#" />
         <div className="text-on-image">Navigator</div> in <br /> the World of{" "}
         <br /> Commodity Trade
       </h1>

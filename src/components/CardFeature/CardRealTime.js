@@ -4,10 +4,14 @@ import "./Card.css";
 
 function CardRealTime() {
   const arr = ["cards", "bg1"];
+  const textColorFeatureDescription = [
+    "text-description",
+    "text-description-color",
+  ];
   return (
     <div className={arr.join(" ")}>
-      <h1 className="feature-title">Real-Time Price</h1>
-      <p className="feature-description">
+      <h1 className="title">Real-Time Price</h1>
+      <p className={textColorFeatureDescription.join(" ")}>
         Find the commodities real-time price you need
       </p>
       <p></p>

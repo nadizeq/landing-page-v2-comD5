@@ -10,15 +10,15 @@
   font-weight: bold;
 }
 .rectangle-size {
-  width: 24%;
+  width: 26%;
   position: relative;
-  top: 15px;
+  top: 10px;
   transform: translate(0%, 5%);
 }
 .text-on-image {
   position: absolute;
-  top: 16%;
-  left: 18%;
+  top: 15%;
+  left: 19%;
   transform: translate(0%, 50%);
 }
 
@@ -38,21 +38,14 @@
   width: 150px;
 }
 
-.pc-comd5 {
+.pcPhone-comd5 {
   position: absolute;
-  top: 38%;
-  right: 13%;
-  height: 45%;
-  width: 30%;
+  top: 25%;
+  right: 5%;
+  height: 65%;
+  width: 40%;
 }
 
-.phone-comd5 {
-  position: absolute;
-  top: 27%;
-  right: 10%;
-  height: 65%;
-  width: 18%;
-}
 .start-now-btn {
   background: linear-gradient(
     98.83deg,
@@ -61,17 +54,22 @@
     #194886 83.7%
   );
   color: white;
-  font-size: 18px;
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: 800;
+  font-size: 25px;
+  line-height: 42px;
+  letter-spacing: 0.015em;
   display: justify;
   border-radius: 20px;
   margin: 40px 270px 10px;
-  width: 140px;
-  height: 50px;
+  width: 200px;
+  height: 60px;
   cursor: pointer;
 }
 
 .hero-container {
-  background: url("../../image/originalbg.jpg") center center/cover no-repeat;
+  background: url("../../image/originalbg2.png") center center/cover no-repeat;
 
   height: 100vh;
   width: 100%;
@@ -84,35 +82,79 @@
 
 .hero-container > h1 {
   color: #275187;
-  font-size: 68px;
   margin-top: 30px;
   margin-left: 90px;
+  font-family: Readex Pro;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 68px;
+  line-height: 80px;
+  letter-spacing: 0.06em;
+
+  color: #275187;
 }
 
 .hero-container > p {
   margin-top: 22px;
   margin-left: 90px;
+  font-family: Glory;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 28px;
+  line-height: 36px;
+  letter-spacing: 0.015em;
+
   color: #062650;
-  font-size: 27px;
-  font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
-    "Lucida Sans", Arial, sans-serif;
 }
 
 @media screen and (max-width: 960px) {
   .hero-container > h1 {
     font-size: 70px;
     margin-top: -150px;
+    position: relative;
+    top: 40%;
+    width: 250px;
+    height: 74px;
   }
 }
 
-@media screen and (max-width: 768px) {
+@media screen and (min-width: 500px) {
+  .pcPhone-comd5 {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    position: absolute;
+    top: 15%;
+    left: 5%;
+    height: 45%;
+    width: 55%;
+  }
+  .hero-container {
+    background: url("../../image/originalbg2.png") center center/cover no-repeat;
+
+    height: 150vh;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    box-shadow: inset 0 0 0 1000px rgba(0, 0, 0, 0.2);
+    object-fit: contain;
+  }
   .hero-container > h1 {
     font-size: 35px;
     margin-top: 30px;
+    position: relative;
+    top: 10%;
+    width: 250px;
+    height: 74px;
   }
 
   .hero-container > p {
     font-size: 15px;
+    position: relative;
+    top: 80%;
+    width: 250px;
+    height: 74px;
   }
 
   .start-now-btn {
