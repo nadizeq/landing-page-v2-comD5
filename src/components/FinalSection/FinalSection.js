@@ -3,7 +3,7 @@ import "./FinalSection.css";
 import GooglePlay from "../../image/googlePlay.png";
 
 function FinalSection() {
-  const arr = ["cards", "bg-Commodify "];
+  const arr = ["cards-final-section", "bg-Commodify "];
   const textColorFeatureDescription = [
     "text-description",
     "text-description-color-final",

@@ -5,6 +5,7 @@ import FirstFeature from "../CardFeature/CardRealTime";
 import SecondFeature from "../CardFeature/CardWallet";
 import FinalSection from "../FinalSection/FinalSection";
 import CreativeTeam from "../CardCreativeTeam/CreativeTeam";
+import Footer from "../Footer/Footer";
 
 function Home() {
   return (
@@ -14,6 +15,7 @@ function Home() {
       <SecondFeature />
       <CreativeTeam />
       <FinalSection />
+      <Footer />
     </>
   );
 }

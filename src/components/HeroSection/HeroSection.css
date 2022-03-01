@@ -81,7 +81,6 @@
 }
 
 .hero-container > h1 {
-  color: #275187;
   margin-top: 30px;
   margin-left: 90px;
   font-family: Readex Pro;
@@ -94,31 +93,95 @@
   color: #275187;
 }
 
-.hero-container > p {
+.center-description {
   margin-top: 22px;
   margin-left: 90px;
   font-family: Glory;
   font-style: normal;
   font-weight: 600;
-  font-size: 28px;
+  font-size: 25px;
   line-height: 36px;
   letter-spacing: 0.015em;
 
   color: #062650;
 }
 
-@media screen and (max-width: 960px) {
+@media only screen and (max-width: 1200px) {
+  .pcPhone-comd5 {
+    position: absolute;
+    top: 30%;
+    right: 3%;
+    height: 50%;
+    width: 33%;
+  }
+
+  .hero-container {
+    background: url("../../image/originalbg2.png") center center/cover no-repeat;
+
+    height: 125vh;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    box-shadow: inset 0 0 0 1000px rgba(0, 0, 0, 0.2);
+    object-fit: contain;
+    white-space: nowrap;
+  }
+
+  .hero-container {
+    background: url("../../image/originalbg2.png") center center/cover no-repeat;
+
+    height: 120vh;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    box-shadow: inset 0 0 0 1000px rgba(0, 0, 0, 0.2);
+    object-fit: contain;
+    white-space: nowrap;
+  }
   .hero-container > h1 {
-    font-size: 70px;
-    margin-top: -150px;
+    margin-top: 30px;
+    margin-left: 90px;
+    font-family: Readex Pro;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 49px;
+    line-height: 80px;
+    letter-spacing: 0.06em;
+
+    color: #275187;
+  }
+
+  .text-on-image {
+    position: absolute;
+    top: 173px;
+    left: 22%;
+    transform: translate(0%, 50%);
+  }
+
+  .rectangle-size {
+    width: 28%;
     position: relative;
-    top: 40%;
-    width: 250px;
-    height: 74px;
+    top: 10px;
+    transform: translate(0%, 5%);
+  }
+
+  .center-description {
+    margin-top: 22px;
+    margin-left: 90px;
+    font-family: Glory;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 20px;
+    line-height: 36px;
+    letter-spacing: 0.015em;
+
+    color: #062650;
   }
 }
 
-@media screen and (min-width: 500px) {
+@media screen and (max-width: 970px) {
   .pcPhone-comd5 {
     display: block;
     margin-left: auto;
@@ -126,38 +189,87 @@
     position: absolute;
     top: 15%;
     left: 5%;
-    height: 45%;
-    width: 55%;
+    height: 40%;
+    width: 45%;
+    white-space: nowrap;
   }
   .hero-container {
     background: url("../../image/originalbg2.png") center center/cover no-repeat;
 
-    height: 150vh;
+    height: 125vh;
     width: 100%;
     display: flex;
     flex-direction: column;
     justify-content: center;
     box-shadow: inset 0 0 0 1000px rgba(0, 0, 0, 0.2);
     object-fit: contain;
+    white-space: nowrap;
   }
   .hero-container > h1 {
-    font-size: 35px;
-    margin-top: 30px;
-    position: relative;
-    top: 10%;
-    width: 250px;
-    height: 74px;
+    font-family: Readex Pro;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 40px;
+    line-height: 50px;
+    letter-spacing: 0.06em;
+    white-space: nowrap;
+    color: #275187;
+    position: absolute;
+    margin-top: 10px;
+    margin-right: 25%;
+    top: 62%;
+    left: 17%;
+    display: block;
   }
 
-  .hero-container > p {
-    font-size: 15px;
+  .text-on-image {
     position: relative;
-    top: 80%;
-    width: 250px;
-    height: 74px;
+    top: -135px;
+    left: 28%;
+    transform: translate(0%, 50%);
+    white-space: nowrap;
   }
 
-  .start-now-btn {
+  .rectangle-size {
+    width: 220px;
+    height: 60px;
+
+    position: relative;
+    top: -68px;
+    left: 27%;
+    transform: translate(0%, 5%);
+    display: block;
+  }
+
+  .text-first {
+    position: relative;
+    top: -160px;
+    left: 330px;
+  }
+
+  .text-second {
+    position: relative;
+    top: -160px;
+    left: 5px;
+  }
+
+  .text-third {
+    position: relative;
+    top: -160px;
+    left: 5px;
+  }
+
+  .center-description {
+    display: flex;
+    justify-content: center;
+    position: relative;
+    top: 280px;
+    right: 40px;
+    font-size: 17px;
+    line-height: 30px;
+  }
+
+  .hero-container > .start-now-btn {
     background: linear-gradient(
       98.83deg,
       #00b2ff 11.6%,
@@ -165,17 +277,157 @@
       #194886 83.7%
     );
     color: white;
-    font-size: 15px;
+    font-size: 20px;
     font-weight: bold;
-    display: justify;
-    border-radius: 5px;
-    margin: 50px 100px 10px;
-    width: 140px;
-    height: 40px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    border-radius: 30px;
+    width: 160px;
+    height: 60px;
     cursor: pointer;
+    position: relative;
+    top: 28%;
+  }
+}
+
+@media screen and (max-width: 900px) {
+  .hero-container {
+    background: url("../../image/originalbg2.png") center center/cover no-repeat;
+
+    height: 125vh;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    box-shadow: inset 0 0 0 1000px rgba(0, 0, 0, 0.2);
+    object-fit: contain;
+    white-space: nowrap;
+  }
+  .hero-container > h1 {
+    font-family: Readex Pro;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 40px;
+    line-height: 50px;
+    letter-spacing: 0.06em;
+    white-space: nowrap;
+    color: #275187;
+    position: absolute;
+    margin-top: 10px;
+    margin-right: 25%;
+    top: 62%;
+    left: 5%;
+    display: block;
   }
 
-  .btn {
-    width: 20%;
+  .text-on-image {
+    position: relative;
+    top: -135px;
+    left: 28%;
+    transform: translate(0%, 50%);
+    white-space: nowrap;
   }
+
+  .rectangle-size {
+    width: 220px;
+    height: 60px;
+
+    position: relative;
+    top: -68px;
+    left: 27%;
+    transform: translate(0%, 5%);
+    display: block;
+  }
+
+  .text-first {
+    position: relative;
+    top: -160px;
+    left: 330px;
+  }
+
+  .text-second {
+    position: relative;
+    top: -160px;
+    left: 5px;
+  }
+
+  .text-third {
+    position: relative;
+    top: -160px;
+    left: 5px;
+  }
+}
+
+@media screen and (max-width: 800px) {
+  .hero-container {
+    background: url("../../image/originalbg2.png") center center/cover no-repeat;
+
+    height: 120vh;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    box-shadow: inset 0 0 0 1000px rgba(0, 0, 0, 0.2);
+    object-fit: contain;
+    white-space: nowrap;
+  }
+  .hero-container > h1 {
+    font-family: Readex Pro;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 40px;
+    line-height: 50px;
+    letter-spacing: 0.06em;
+    white-space: nowrap;
+    color: #275187;
+    position: absolute;
+    margin-top: 10px;
+    margin-right: 25%;
+    top: 60%;
+    left: 3%;
+    display: block;
+  }
+
+  .text-on-image {
+    position: relative;
+    top: -135px;
+    left: 28%;
+    transform: translate(0%, 50%);
+    white-space: nowrap;
+  }
+
+  .rectangle-size {
+    width: 220px;
+    height: 60px;
+
+    position: relative;
+    top: -68px;
+    left: 27%;
+    transform: translate(0%, 5%);
+    display: block;
+  }
+
+  .text-first {
+    position: relative;
+    top: -160px;
+    left: 330px;
+  }
+
+  .text-second {
+    position: relative;
+    top: -160px;
+    left: 5px;
+  }
+
+  .text-third {
+    position: relative;
+    top: -160px;
+    left: 5px;
+  }
+}
+
+@media only screen and (max-width: 700px) {
+}
+@media only screen and (max-width: 600px) {
 }
