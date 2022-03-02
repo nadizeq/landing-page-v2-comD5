@@ -1,9 +1,7 @@
 import React from "react";
 import "../../App";
-//import { Button } from "../button/Button";
 import "./HeroSection.css";
 import comD5 from "../../image/Company-logo.png";
-import rectangle from "../../image/highlight.png";
 import pcPhone from "../../image/phonePCFirstPage.png";
 import history from "../../history";
 
@@ -19,14 +17,10 @@ function HeroSection() {
       />
 
       <h1 className="Header-intro">
-        Your <img className="rectangle-size" src={rectangle} alt="#" />
-        <div className="text-on-image">Navigator</div>
-        <text className="text-first"> in</text> <br />
-        <text className="text-second">the World of</text>
-        <text className="text-third">
-          <br />
-          Commodity Trade
-        </text>
+        Your Navigator in <br />
+        the World of
+        <br />
+        Commodity Trade
       </h1>
 
       <div className="center-description">
