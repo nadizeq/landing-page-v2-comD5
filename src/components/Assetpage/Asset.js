@@ -30,7 +30,7 @@ function Asset() {
               path="/gold"
             />
           </ul>
-          <div className="asset-items">
+          <ul className="asset-items">
             <AssetItems
               title="Platinum"
               src={Silver}
@@ -49,7 +49,7 @@ function Asset() {
                     resistant compared  to its sibling, platinum."
               path="/gold"
             />
-          </div>
+          </ul>
         </div>
       </div>
     </div>
