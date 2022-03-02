@@ -18,7 +18,7 @@ function HeroSection() {
         alt="Devices showing ComD5 services"
       />
 
-      <h1>
+      <h1 className="Header-intro">
         Your <img className="rectangle-size" src={rectangle} alt="#" />
         <div className="text-on-image">Navigator</div>
         <text className="text-first"> in</text> <br />
