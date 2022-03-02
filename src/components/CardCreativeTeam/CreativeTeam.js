@@ -4,7 +4,7 @@ import "./CreativeTeam.css";
 import Team1 from "../../image/TeamMember/icon1.png";
 
 function CreativeTeam() {
-  const arr = ["cards-creativeTeam", "bg-creativeTeam"];
+  const arr = ["cards-creativeTeam", "bg-creativeTeam", "bg-size"];
   const textColorDescription = [
     "text-description",
     "text-description-color-creativeTeam",
