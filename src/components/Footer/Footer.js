@@ -3,7 +3,6 @@ import { View, Text } from "react-native";
 import "./Footer.css";
 import { IoCallOutline } from "react-icons/io5";
 import { AiOutlineMail } from "react-icons/ai";
-import { AiFillChrome } from "react-icons/ai";
 import { AiOutlineChrome } from "react-icons/ai";
 import ComD5White from "../../image/CompanyLogo/comD5-white.png";
 
