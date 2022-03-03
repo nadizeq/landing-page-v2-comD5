@@ -135,26 +135,46 @@
     background-color: #194785;
     color: #fff;
     height: 100%;
-    width: 300px;
+    width: 280px;
   }
   .cards__item_text {
     text-align: center;
     font-size: 17px;
     line-height: 24px;
   }
-}
 
-@media only screen and (min-width: 1024px) {
-  .cards__items {
-    display: flex;
-    flex-flow: row;
+  .title-creativeTeam {
+    font-size: 60px;
+    line-height: 87px;
+  }
+
+  .text-description-color-creativeTeam {
+    font-size: 30px;
+    line-height: 42px;
   }
 }
 
 @media only screen and (max-width: 1024px) {
   .cards__item {
+    display: flex;
+    flex: 1;
+    margin: 0 25px 30px;
+    border-radius: 10px;
     margin-bottom: 2rem;
   }
+
+  .cards__item__info {
+    padding: 20px 50px 20px;
+    background-color: #194785;
+    color: #fff;
+    height: 100%;
+    width: 250px;
+  }
+  /* Display card in column */
+  /* .cards__items {
+    display: flex;
+    flex-flow: column;
+  } */
 }
 
 @media only screen and (min-width: 620px) {
