@@ -2,6 +2,7 @@ import React from "react";
 import CreativeTeamList from "./CreativeTeamList";
 import "./CreativeTeam.css";
 import Team1 from "../../image/TeamMember/icon1.png";
+import "animate.css";
 
 function CreativeTeam() {
   const arr = ["cards-creativeTeam", "bg-creativeTeam", "bg-size"];

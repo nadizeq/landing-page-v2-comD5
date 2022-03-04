@@ -4,6 +4,7 @@ import "./HeroSection.css";
 import comD5 from "../../image/Company-logo.png";
 import pcPhone from "../../image/phonePCFirstPage.png";
 import history from "../../history";
+import "animate.css";
 
 function HeroSection() {
   return (
@@ -16,7 +17,7 @@ function HeroSection() {
         alt="Devices showing ComD5 services"
       />
 
-      <h1 className="Header-intro">
+      <h1 className="animate__animated animate__bounce Header-intro">
         Your Navigator in <br />
         the World of
         <br />
