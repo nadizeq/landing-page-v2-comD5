@@ -1,5 +1,4 @@
 import React from "react";
-import Gold from '../../image/gold.png';
 import './Asset.css';
 
 function AssetItems(props) {
@@ -7,14 +6,14 @@ function AssetItems(props) {
         <>
         <li className="assets_items">
             <div className="asset_items_box" >
-                <h3 className="title">{props.title}</h3>
-
+                <h4 className="title">{props.title}</h4>
+                <div className="asset-imgtext">
                 <figure className="asset_item_pic" >
-                    <img className="asset_items_img" src={props.src} alt="Gold Image" />
+                    <img className="asset_items_img" src={props.src} alt="Gold" />
                 </figure>
-                <div className="asset_item_info">
+                    <div className="asset_item_info">
                     <h5 className="asset_item_text"> {props.text}</h5>
-
+                    </div>
                 </div>
             </div>
         </li>

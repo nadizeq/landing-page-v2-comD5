@@ -5,7 +5,7 @@
 .cards-final-section {
   padding: 4rem;
 
-  height: 40rem;
+  height: 50rem;
 }
 
 .bg-Commodify {
@@ -26,8 +26,13 @@
 }
 
 .start-now-btn-final-page {
-  background: #ffffff;
-  color: #194785;
+  background: linear-gradient(
+    98.83deg,
+    #00b2ff 11.6%,
+    #106fb3 56.89%,
+    #194886 83.7%
+  );
+  color: #ffffff;
   font-family: Roboto;
   font-style: normal;
   font-weight: 800;
@@ -82,9 +87,6 @@
   }
 
   .start-now-btn-final-page {
-    background: #ffffff;
-    color: #194785;
-    font-family: Roboto;
     font-style: normal;
     font-weight: 800;
     font-size: 33px;
@@ -139,10 +141,6 @@
   }
 
   .start-now-btn-final-page {
-    background: #ffffff;
-    color: #194785;
-    font-family: Roboto;
-    font-style: normal;
     font-weight: 800;
     font-size: 23px;
     line-height: 42px;
@@ -196,11 +194,6 @@
   }
 
   .start-now-btn-final-page {
-    background: #ffffff;
-    color: #194785;
-    font-family: Roboto;
-    font-style: normal;
-    font-weight: 800;
     font-size: 22px;
     line-height: 42px;
     letter-spacing: 0.015em;

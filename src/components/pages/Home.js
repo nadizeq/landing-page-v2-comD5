@@ -7,6 +7,7 @@ import SecondFeature from "../CardFeature/CardWallet";
 import FinalSection from "../FinalSection/FinalSection";
 import CreativeTeam from "../CardCreativeTeam/CreativeTeam";
 import Footer from "../Footer/Footer";
+import "typeface-roboto";
 
 function Home() {
   return (
